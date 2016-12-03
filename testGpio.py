@@ -6,7 +6,10 @@ def createOutputDevice(pin):
 
 
 outputPins = [29, 31, 33, 35, 37]
-outputDevices = map(createOutputDevice, outputPins)
+# outputDevices = map(createOutputDevice, outputPins)
+
+print "Test setup is running on these pins: " + ", ".join(map(str, outputPins))
+print "Ensure you have these pins connected to the relays on the NO (normally open) input"
 
 print "Testing individual pins, enabling them for 2 seconds each"
 for device in outputDevices:
