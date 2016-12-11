@@ -12,6 +12,13 @@ apt-get install -y python3
 apt-get install -y python-pip
 apt-get install -y python-gpiozero
 apt-get install -y python3-gpiozero
+# apt-get install -y python-tk
 
 # Update pip to latest version
 pip install --upgrade pip
+
+pip install midiutil
+pip install pygame
+
+
+apt-get install timidity
