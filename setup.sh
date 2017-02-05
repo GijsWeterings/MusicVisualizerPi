@@ -22,3 +22,12 @@ pip install pygame
 
 
 apt-get install timidity
+apt-get install libasound2-dev
+apt-get install mpg123
+
+
+
+apt-get install timidity
+
+
+git clone git@github.com:zvineyard/light-organ.git ~/light-organ
